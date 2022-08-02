@@ -190,17 +190,22 @@ font-weight: 700;
 }
 
 .main-carousel{
+}
+.products__carousel{
     height: 90vh;
+
 }
 .carousel-cell {
-    width: 33%; /* half-width */
-    height: 100%;
-    margin-right: 10px;
+   
+    
    
    
   }
 /* ------- PRODUCT CARD ------------- */
 .slide{
+    width: 33%; /* half-width */
+    height: 100%;
+    margin-right: 10px;
 position: relative;
 display: flex;
 flex-direction: column;
@@ -260,9 +265,88 @@ text-decoration: line-through;
 
 }
 
+/* ----------------- SECTION BRAND ----------------- */
+.section--brand{
+padding:7rem;
+height: auto;
+background-color: var(--main-txt-color);
+display: flex;
+flex-direction: column;
+gap: 3rem;
+}
+.section--brand__intro{
+text-align: center;
+line-height: 4.5rem;
+}
+.heading-4--brand{
+font-size: 1.8rem;
+}
+.heading-2--brand{
+font-size:3.4rem;
+display: flex;
+flex-direction: column;
+}
+.brand-title--blue{
+    color:var(--main-bg-color);
+    border-bottom: dashed;
+    
+    
+    align-self: center;
+}
+.brand-carousel{
+    height: 55vh;
+}
+.brand-carousel__slide{
+    width: 25%; /* half-width */
+    height: 100%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+    padding-bottom: 5rem;
+
+}
+
+/* ---------- use of library ----------- */
+.flickity-page-dots {
+    bottom: -22px;
+  }
+  /* dots are lines */
+  .flickity-page-dots .dot {
+    height: 4px;
+    width: 40px;
+    margin: 0;
+    border-radius: 0;
+  }
+
+.brand-carousel__img-box{
+}
+.brand-carousel__img{
+    width: 90%;
+
+}
+.barand-carousel__product-name{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.barand-carousel__product-description{
+    font-size: 1.4rem;
+    
+
+}
+
+
+
+
+
 @media (max-width:600px) {
     /* --------HEADER RESPONSIVE PART */
-
+html{
+    font-size: 55%;
+}
     .container{
         width: 100vw;
     }
@@ -319,7 +403,17 @@ display: none;
             .carousel-cell{
                 width: 70%;
             }
-          
+            /* ----------- SECTION BRAND RESPONSIVE */
+            .section--brand{
+                padding: 2rem;
+                padding-bottom: 5rem;
+            }
+            .heading-4--brand{
+                font-size:1.6rem;
+            }       
+            .heading-4--brand{
+                font-size:3rem;
+            }       
     
 }
 
