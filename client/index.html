@@ -14,10 +14,41 @@
       href="https://unpkg.com/flickity@2/dist/flickity.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/hompe_page_2.css" />
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="./src/main.js" defer type="module"></script>
   </head>
   <body>
+    <div class="pop-up hidden">
+      <div class="close">&times;</div>
+      <ul class="nav-bar nav-bar--pop-up nav-bar-menu--pop-up hidden">
+        <li class="nav-bar__item">
+          <a href="" class="nav-bar__link">Shop</a>
+        </li>
+        <li class="nav-bar__item">
+          <a href="" class="nav-bar__link">About</a>
+        </li>
+        <li class="nav-bar__item">
+          <a href="" class="nav-bar__link">Suncare 101</a>
+        </li>
+      </ul>
+      <ul class="nav-bar nav-bar--pop-up nav-bar-cart--pop-up hidden">
+        <li class="nav-bar__item">
+          <a href="" class="nav-bar__link">Account</a>
+        </li>
+        <li class="nav-bar__item">
+          <a href="" class="nav-bar__link">Search</a>
+        </li>
+        <li class="nav-bar__item">
+          <a href="" class="nav-bar__link">Cart()</a>
+        </li>
+      </ul>
+    </div>
+    <img
+      src="./public/images/icons/icon.png"
+      alt="question icon"
+      class="img_question-icon"
+    />
     <main class="container">
       <header class="header">
         <nav class="navigation">
@@ -218,6 +249,233 @@
           </div>
         </div>
       </section>
+      <!-- ---------- SECTION COLLECTIONS ----------------- -->
+      <section
+        class="section section--3 section--products section--collections"
+      >
+        <div class="products">
+          <div class="collections-info-box">
+            <div class="products__title">Collections</div>
+            <p class="collections__description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. At
+              obcaecati molestias omnis reiciendis pariatur id distinctio
+              impedit veritatis perferendis! Totam!
+            </p>
+          </div>
+          <div class="products__nav">
+            <div class="products__btn_box">
+              <div class="btn--left">
+                <img
+                  class="btn-img"
+                  src="./public/images/icons/left.png"
+                  alt="left btn"
+                />
+              </div>
+              <div class="btn--right btn--right--collections">
+                <img
+                  class="btn-img"
+                  src="./public/images/icons/right.png"
+                  alt="right btn"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-carousel products__carousel collections-carousel">
+          <div class="carousel-cell slide slide--collections">
+            <div class="slide__img-box">
+              <img
+                src="./public/images/portrait-serious-curly-haired-woman-wears-spectacles-sas-has-bad-eyesight-looks-directly-camera-dressed-leather-jacket-poses-against-brown-background-people-facial-expressions-style 1.jpg"
+                alt=""
+                class="slide__img slide__img--collections"
+              />
+            </div>
+            <div class="slide__description">SED UT PRESIPICANTS</div>
+          </div>
+          <div class="carousel-cell slide slide--collections">
+            <div class="slide__img-box">
+              <img
+                src="./public/images/three-young-beautiful-smiling-girls-trendy-summer-casual-jeans-clothes-sexy-carefree-women-posing-positive-models-sunglasses 1.png"
+                alt=""
+                class="slide__img slide__img--collections"
+              />
+            </div>
+            <div class="slide__description">SED UT PRESIPICANTS</div>
+          </div>
+          <div class="carousel-cell slide slide--collections">
+            <div class="slide__img-box">
+              <img
+                src="./public/images/portrait-serious-curly-haired-woman-wears-spectacles-sas-has-bad-eyesight-looks-directly-camera-dressed-leather-jacket-poses-against-brown-background-people-facial-expressions-style 1.jpg"
+                alt=""
+                class="slide__img slide__img--collections"
+              />
+            </div>
+            <div class="slide__description">SED UT PRESIPICANTS</div>
+          </div>
+        </div>
+      </section>
+      <!-- ------------- SECTION INGREDIENTS------------- -->
+      <section class="section section--4 section--ingredients">
+        <div class="section__content">
+          <div class="section__title">
+            Lorem ipsum dolor sit amet consectetur.
+          </div>
+          <div class="section__paragraph">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. In modi
+            unde quas dignissimos, consequuntur architecto quod nobis
+            necessitatibus doloremque odit iusto itaque culpa numquam ullam
+            doloribus dolorem?
+          </div>
+          <div class="section__info">Ingredient Glossary</div>
+        </div>
+        <div class="section__img-box">
+          <img src="./public/images/img1.jpg" alt="img" class="section__img" />
+        </div>
+        <div class="section__img-box">
+          <img src="./public/images/img2.jpg" alt="img" class="section__img" />
+        </div>
+        <div class="section__content">
+          <div class="section__info">Our Story</div>
+          <div class="section__title">
+            Lorem ipsum dolor sit amet consectetur.
+          </div>
+          <div class="section__paragraph">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. In modi
+            unde quas dignissimos, consequuntur architecto quod nobis
+            necessitatibus doloremque odit iusto itaque culpa numquam ullam
+            doloribus dolorem?
+          </div>
+        </div>
+        <div class="featuring">
+          <div class="section__content section__content--featuring">
+            <div class="section__info section__info--featuring">featuring</div>
+            <div class="section__title section__title--featuring">
+              sed ut persipicatois
+            </div>
+            <div class="section__paragraph">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. In modi
+              unde quas dignissimos, consequuntur architecto quod nobis
+              necessitatibus doloremque odit iusto itaque culpa numquam ullam
+              doloribus dolorem?
+            </div>
+            <button class="btn btn--featuring">shop now</button>
+          </div>
+          <div class="section__img-box">
+            <picture>
+              <source
+                media="(max-width:600px)"
+                srcset="./public/images/mobile-version/multi.jpg"
+              />
+              <img
+                src="./public//images/img3.png"
+                alt="multi etnicity"
+                class="section__img"
+              />
+            </picture>
+          </div>
+        </div>
+        <div class="section__img-box section__img-box--img-4">
+          <img
+            src="./public/images/img4.jpg"
+            alt="img"
+            class="section__img section__img--4"
+          />
+          <div class="img-content">
+            <div class="img-title">nemo denim ispam</div>
+            <a href="#" class="img-btn">Shop now</a>
+          </div>
+        </div>
+        <div class="section__img-box section__img-box--img-5 section__img--5">
+          <img src="./public/images/img5.jpg" alt="img" class="section__img" />
+          <div class="img-content">
+            <div class="img-title">nemo denim ispam</div>
+            <a href="#" class="img-btn">Shop now</a>
+          </div>
+        </div>
+      </section>
+      <!-- ------------- SECTION featured------------- -->
+      <section class="section section--5 section--featured">
+        <div class="featured--title">fetured</div>
+        <div class="featured__brand-box">
+          <img
+            src="./public/images/icons/vogue.png"
+            alt="vogue"
+            class="featured__brand"
+          />
+          <img
+            src="./public/images/icons/allure.png"
+            alt="allure.png"
+            class="featured__brand"
+          />
+          <img
+            src="./public/images/icons/elle.png"
+            alt="elle.png"
+            class="featured__brand"
+          />
+          <img
+            src="./public/images/icons/womenshealth.png"
+            alt="womenshealth.png"
+            class="featured__brand"
+          />
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__form">
+          <form action="#">
+            <div class="footer__title">Join the club</div>
+            <p class="footer__paragraph">
+              Keep up with our new releases,beauty tips and what Winnie's been
+              up to
+            </p>
+            <input
+              type="text"
+              class="footer__input"
+              required
+              placeholder="Email Address"
+            />
+            <div class="socials-box">
+              <img
+                src="./public/images/icons/socials.png"
+                alt="socials"
+                class="socials"
+              />
+            </div>
+            <!-- <button class="submit-btn">
+              <img src="./public/images/icons/arrow.png" alt="arrow" />
+            </button> -->
+          </form>
+          <ul class="rules">
+            <li class="rules__items">&copy; Cream Shop</li>
+            <li class="rules__items">Terms and conditions</li>
+            <li class="rules__items">Privacy Policy</li>
+          </ul>
+        </div>
+        <div class="footer__menu">
+          <ul class="category category--shop">
+            <span class="category__name">Shop</span>
+            <li class="category__items">Shop All</li>
+            <li class="category__items">Best Sellers</li>
+            <li class="category__items">Universal Material</li>
+            <li class="category__items">Isie Glow Isle</li>
+            <li class="category__items">Deepwater</li>
+            <li class="category__items">Winne Selects</li>
+          </ul>
+          <ul class="category category--learn">
+            <span class="category__name">Learn</span>
+            <li class="category__items">About Us</li>
+            <li class="category__items">Ingredient Glossary</li>
+            <li class="category__items">Sun cate 101</li>
+            <li class="category__items">Our Journay</li>
+          </ul>
+          <ul class="category category--customer">
+            <span class="category__name">Custormer</span>
+            <li class="category__items">Contact Us</li>
+            <li class="category__items">Help/FAQ</li>
+            <li class="category__items">My Account</li>
+            <li class="category__items">Shipping and Return</li>
+          </ul>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
