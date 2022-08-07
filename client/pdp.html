@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>collection</title>
+    <title>pdp</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100;200;300;400;500;600;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
@@ -12,9 +12,8 @@
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/hompe_page_2.css" />
-    <link rel="stylesheet" href="css/style--plp.css" />
-
-    <script src="./src/plp.js"></script>
+    <link rel="stylesheet" href="css/style--pdp.css" />
+    <script src="./src/pdp.js"></script>
   </head>
   <body>
     <div class="pop-up hidden">
@@ -47,8 +46,8 @@
       alt="question icon"
       class="img_question-icon"
     />
-    <header class="header header--collection">
-      <nav class="navigation">
+    <header class="header header--pdp">
+      <nav class="navigation navigation--pdp">
         <span class="navigation__shipping-info"
           >Free Shipping for all orders over $100</span
         >
@@ -79,134 +78,71 @@
           </ul>
           <div class="nav-bar nav-bar--mobile-cart">cart(0)</div>
         </div>
+        <ul class="navigation__page">
+          <li class="page"><a href="#" class="page__link">Home</a></li>
+          /
+          <li class="page"><a href="#" class="page__link">Best Seller</a></li>
+          /
+          <li class="page">
+            <a href="#" class="page__link page__link--current"
+              >Universal Face Lotion SPF55</a
+            >
+          </li>
+        </ul>
       </nav>
-      <div class="header__content header__content--collection">
-        <h1 class="title title--collection-header">Lorem ipsum</h1>
-        <p class="paragraph paragraph--collection">
-          at vero eoset Lorem ipsum dolor sit amet, consectetur <br />
-          adipisicing elit. Facere cupiditate quia nam officia soluta dolore!
-        </p>
+      <div class="header__content--pdp">
+        <div class="product__gallery"></div>
+        <div class="product__info">
+          <div class="product__name">Niche Beauty CCC Cream – Niche Beauty</div>
+          <div class="product__price">$28</div>
+          <div class="product__description">
+            The original, weightless, scentless sunscreen with SPF 55 that
+            leaves a shinny finish. Formulated with the most sensitive and
+            vulnerable in mind, with a custom blend of natural, gentle and
+            hydrating island ingredients mixed with the most effective
+            skincare-grade actives.
+          </div>
+          <div class="product__details">
+            <div class="product__size">Size 50ml</div>
+            <div class="product__varient-box">
+              <button class="btn btn--varient">1.7 fl oz</button>
+              <button class="btn btn--varient">2.5 fl oz</button>
+              <button class="btn btn--varient">3.4 fl oz</button>
+            </div>
+          </div>
+          <form action="#" class="form__subscription">
+            <div class="purchase-option">
+              <div class="btn-icon-box"><div class="btn-icon"></div></div>
+              <div class="subscription-content">$28.00 One time purchase</div>
+            </div>
+            <div class="purchase-option">
+              <div class="btn-icon-box"><div class="btn-icon"></div></div>
+              <div class="subscription-content">$25.99 Subscribe and save</div>
+            </div>
+            <div class="cart-menu">
+              <div class="cart-menu__qty">
+                <button class="btn btn--qty">-</button>
+                <span class="qty-number">1</span>
+                <button class="btn btn--qty">+</button>
+              </div>
+              <div class="btn btn--add-to-cart">Add to cart-$28.00</div>
+            </div>
+          </form>
+          <ul class="dropdown">
+            <button class="dropdown__item">
+              <div class="item__name">Use Instruction</div>
+              <div class="item__icon">+</div>
+            </button>
+            <button class="dropdown__item">
+              <div class="item__name">Ingredients</div>
+              <div class="item__icon">+</div>
+            </button>
+          </ul>
+        </div>
       </div>
     </header>
     <!-- -------------  SECTION PRODUCTS ------------ -->
-    <section class="section section--productsCo">
-      <div class="product__card">
-        <div class="product__label">new</div>
-        <div class="product__img-box">
-          <img
-            src="./public/images/icons/image 8.png"
-            alt=""
-            class="product__img"
-          />
-          <button class="btn btn__cta">+ Quick Shop</button>
-        </div>
-        <div class="product__details">
-          Your Skin But Better CC+ Cream with SPF50 12ml
-        </div>
-        <div class="product__price">$28</div>
-      </div>
-      <div class="product__card">
-        <div class="product__label">new</div>
-        <div class="product__img-box">
-          <img
-            src="./public/images/icons/image 8.png"
-            alt=""
-            class="product__img"
-          />
-          <button class="btn btn__cta">+ Quick Shop</button>
-        </div>
-        <div class="product__details">
-          Your Skin But Better CC+ Cream with SPF50 12ml
-        </div>
-        <div class="product__price">$28</div>
-      </div>
-      <div class="product__card">
-        <div class="product__label">new</div>
-        <div class="product__img-box">
-          <img
-            src="./public/images/icons/image 8.png"
-            alt=""
-            class="product__img"
-          />
-          <button class="btn btn__cta">+ Quick Shop</button>
-        </div>
-        <div class="product__details">
-          Your Skin But Better CC+ Cream with SPF50 12ml
-        </div>
-        <div class="product__price">$28</div>
-      </div>
-      <div class="product__banner">
-        <div class="banner__img-box">
-          <picture>
-            <source
-              media="(max-width:600px)"
-              srcset="./public/images/mobile-version/collection-banner.jpg"
-            />
-            <img
-              src="./public/images/collection-banner.jpg"
-              alt=""
-              class="banner__img"
-            />
-          </picture>
-        </div>
-        <div class="banner__content">
-          <div class="title title--banner">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit.
-          </div>
-          <div class="banner__name">Winnie Harlow</div>
-        </div>
-      </div>
-      <div class="product__card">
-        <div class="product__label">new</div>
-        <div class="product__img-box">
-          <img
-            src="./public/images/icons/image 8.png"
-            alt=""
-            class="product__img"
-          />
-          <button class="btn btn__cta">+ Quick Shop</button>
-        </div>
-        <div class="product__details">
-          Your Skin But Better CC+ Cream with SPF50 12ml
-        </div>
-        <div class="product__price">$28</div>
-      </div>
-      <div class="product__card">
-        <div class="product__label">new</div>
-        <div class="product__img-box">
-          <img
-            src="./public/images/icons/image 8.png"
-            alt=""
-            class="product__img"
-          />
-          <button class="btn btn__cta">+ Quick Shop</button>
-        </div>
-        <div class="product__details">
-          Your Skin But Better CC+ Cream with SPF50 12ml
-        </div>
-        <div class="product__price">$28</div>
-      </div>
 
-      <div class="product__card">
-        <div class="product__label">new</div>
-        <div class="product__img-box">
-          <img
-            src="./public/images/icons/image 8.png"
-            alt=""
-            class="product__img"
-          />
-          <button class="btn btn__cta">+ Quick Shop</button>
-        </div>
-        <div class="product__details">
-          Your Skin But Better CC+ Cream with SPF50 12ml
-        </div>
-        <div class="product__price">$28</div>
-      </div>
-      <div class="product__navigation">
-        <div class="product__amount">Showing 16 of 23</div>
-        <button class="btn btn--product-cta">Load more</button>
-      </div>
-    </section>
     <footer class="footer">
       <div class="footer__form-container">
         <form class="footer__form" action="#">

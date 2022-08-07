@@ -114,6 +114,41 @@ color: var(--main-txt-color);
 font-weight: 600;
 }
 
+.product__navigation{
+grid-column: 1/-1;
+align-self: center;
+justify-self: center;
+padding: 5rem;
+display: flex;
+flex-direction: column;
+gap: 3rem;
+align-items: center;
+justify-items: center;
+}
+.product__amount{
+font-size: 1.4rem;
+color: grey;
+}
+.btn--product-cta{
+background-color: var(--main-bg-color);
+color: var(--main-txt-color);
+font-weight: 600;
+text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:850px) {
     .section--productsCo{
        
@@ -144,7 +179,7 @@ font-weight: 600;
         
         }
 }
-@media (max-width:490px) {
+@media (max-width:500px) {
   
   
     .title--banner{

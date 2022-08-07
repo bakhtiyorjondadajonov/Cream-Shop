@@ -162,13 +162,13 @@ padding: 8rem;
 background-color: rgba(73, 71, 71, 0.434);
 /* justify-content: space-around; */
 }
-.footer__form,form{
+.footer__form,.footer__form-container{
 display: flex;
 flex-direction: column;
 gap: 3rem;
 
 }
-.footer__form{
+.footer__form-container{
     border-right: solid 1px white;
     margin-right: 2rem;
 

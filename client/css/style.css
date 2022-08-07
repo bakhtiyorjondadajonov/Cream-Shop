@@ -119,6 +119,7 @@ display: flex;
 flex-direction: column;
 align-items:center;
 gap: 2rem;
+color:var(--main-txt-color) !important;
 }
 .navigation__shipping-info{
     padding-bottom: 2rem;
@@ -166,9 +167,31 @@ font-weight: 600;
 
 }
 .nav-bar__link{
-    color: var(--main-txt-color);
+    color: inherit;
     text-decoration: none;
     font-weight: 700;
+}
+.navigation__page{
+display: flex;
+list-style: none;
+color: grey ;
+justify-self: start;
+align-self: flex-start;
+font-size: 1.4rem;
+gap: 1rem
+;
+}
+.page{
+
+}
+.page__link{
+    text-decoration: none;
+    color: grey ;
+   
+
+}
+.page__link--current{
+color: black !important;
 }
 /*---------------- HEADER CONTENT---------- */
 .header__content{
