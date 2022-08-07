@@ -1,7 +1,7 @@
 :root{
     --main-txt-color:white;
     --main-bg-color:#7373D7;
-    --color-btn-hover:#C9C9FF;
+    --color-btn-hover:#E9E9FF;
     --secondary-txt-color:black;
 
 }
@@ -552,4 +552,3 @@ margin: 2rem 0;
                  }
     
 }
-

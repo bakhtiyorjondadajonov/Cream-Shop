@@ -9,11 +9,15 @@
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100;200;300;400;500;600;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/hompe_page_2.css" />
     <link rel="stylesheet" href="css/style--pdp.css" />
-    <script src="./src/pdp.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="./src/pdp.js" defer type="module"></script>
   </head>
   <body>
     <div class="pop-up hidden">
@@ -91,7 +95,68 @@
         </ul>
       </nav>
       <div class="header__content--pdp">
-        <div class="product__gallery"></div>
+        <div class="product__gallery">
+          <div class="img-menu">
+            <div class="img-menu__button">
+              <img
+                src="./public/images/resized images/womannk.jpeg"
+                alt=""
+                class="img-menu__img"
+              />
+            </div>
+            <div class="img-menu__button">
+              <img
+                src="./public/images/resized images/curly-woman.jpeg"
+                alt=""
+                class="img-menu__img"
+              />
+            </div>
+            <div class="img-menu__button">
+              <img
+                src="./public/images/resized images/womanmodel.jpeg"
+                alt=""
+                class="img-menu__img"
+              />
+            </div>
+            <div class="img-menu__button">
+              <img
+                src="./public/images/icons/image 8.png"
+                alt=""
+                class="img-menu__img"
+              />
+            </div>
+          </div>
+          <div class="product__gallery__screen">
+            <img
+              src="./public/images/icons/image 8.png"
+              alt=""
+              class="product__gallery__img"
+            />
+          </div>
+        </div>
+        <div class="carousel-pdp">
+          <div class="carousel__slide">
+            <img
+              src="./public/images/portrait-serious-curly-haired-woman-wears-spectacles-sas-has-bad-eyesight-looks-directly-camera-dressed-leather-jacket-poses-against-brown-background-people-facial-expressions-style 1.jpg"
+              alt=""
+              class="carusel__slide-img"
+            />
+          </div>
+          <div class="carousel__slide">
+            <img
+              src="./public/images/icons/image 8.png"
+              alt=""
+              class="carousel__slide-img"
+            />
+          </div>
+          <div class="carousel__slide">
+            <img
+              src="./public/images/img4.jpg"
+              alt=""
+              class="carusel__slide-img"
+            />
+          </div>
+        </div>
         <div class="product__info">
           <div class="product__name">Niche Beauty CCC Cream – Niche Beauty</div>
           <div class="product__price">$28</div>
@@ -141,8 +206,86 @@
         </div>
       </div>
     </header>
-    <!-- -------------  SECTION PRODUCTS ------------ -->
-
+    <section class="section section--ingredients">
+      <div class="ingredients__content">
+        <h1 class="title title--ingredients">ingredients</h1>
+        <p class="paragraph paragraph--ingredients">
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident.
+        </p>
+        <div class="ingredients__list">
+          <div class="ingredients__list-item">
+            <div class="ingredient-icon_box">
+              <img
+                src="./public/images/icons/nectar.png"
+                alt=""
+                class="ingredient-icon"
+              />
+            </div>
+            <div class="ingredient-name">hydrating nectar</div>
+          </div>
+          <div class="ingredients__list-item">
+            <div class="ingredient-icon_box">
+              <img
+                src="./public/images/icons/aloe.png"
+                alt=""
+                class="ingredient-icon"
+              />
+            </div>
+            <div class="ingredient-name">aloe steam cells</div>
+          </div>
+          <div class="ingredients__list-item">
+            <div class="ingredient-icon_box">
+              <img
+                src="./public/images/icons/seamoss.png"
+                alt=""
+                class="ingredient-icon"
+              />
+            </div>
+            <div class="ingredient-name">seamoss</div>
+          </div>
+          <div class="ingredients__list-item">
+            <div class="ingredient-icon_box">
+              <img
+                src="./public/images/icons/nacinamede.png"
+                alt=""
+                class="ingredient-icon"
+              />
+            </div>
+            <div class="ingredient-name">niacinamide</div>
+          </div>
+          <div class="ingredients__list-item">
+            <div class="ingredient-icon_box">
+              <img
+                src="./public/images/icons/almond-oil.png"
+                alt=""
+                class="ingredient-icon"
+              />
+            </div>
+            <div class="ingredient-name">almond oil</div>
+          </div>
+          <div class="ingredients__list-item">
+            <div class="ingredient-icon_box">
+              <img
+                src="./public/images/icons/grapeseed-oil.png"
+                alt=""
+                class="ingredient-icon"
+              />
+            </div>
+            <div class="ingredient-name">grapeseed oil</div>
+          </div>
+        </div>
+        <button class="btn btn--ingredients">Full ingredient glossary</button>
+      </div>
+      <div class="ingredients__banner">
+        <img
+          src="./public/images/bride-beautiful-turquoise-dress-anticipation-wedding-blonde-lace-dress-sea-green-happy-bride-emotion-joy-his-face-beautiful-makeup-manicure-hairstyle-women 1.jpg"
+          alt=""
+          class="ingredients__banner-img"
+        />
+      </div>
+    </section>
     <footer class="footer">
       <div class="footer__form-container">
         <form class="footer__form" action="#">

@@ -39,6 +39,7 @@ font-size:5.2rem ;
     gap: 2rem;
     /* margin-left: 2rem; */
 }
+
 .product__label{
     position: absolute;
     font-size: 1.4rem;
@@ -61,6 +62,7 @@ font-size:5.2rem ;
     
 
 }
+
 .btn__cta{
     border: none;
     border-top: 1px solid white;
