@@ -1,28 +1,22 @@
 const elem = document.querySelector(".main-carousel");
 const brandCorusel = document.querySelector(".brand-carousel");
 const collectionsCarousel = document.querySelector(".collections-carousel");
-let flkty = new Flickity(elem, {
-  autoPlay: true,
-  cellAlign: "left",
-  contain: true,
-  freeScroll: true,
-  prevNextButtons: false,
-  pageDots: false,
-});
 
-let secondCorusel = new Flickity(brandCorusel, {
-  cellAlign: "left",
-  contain: true,
-  freeScroll: true,
-  prevNextButtons: false,
-});
-let thirdCorusel = new Flickity(collectionsCarousel, {
-  cellAlign: "left",
-  contain: true,
-  freeScroll: true,
-  prevNextButtons: false,
-  pageDots: false,
-});
+export const carouselTriggerFn = (element) => {
+  if (element) {
+    let flkty = new Flickity(element, {
+      autoPlay: true,
+      cellAlign: "left",
+      contain: true,
+      freeScroll: true,
+      prevNextButtons: false,
+      pageDots: false,
+    });
+  }
+};
+carouselTriggerFn(elem);
+carouselTriggerFn(collectionsCarousel);
+carouselTriggerFn(brandCorusel);
 
 // -------- NAV BAR FUNTIONALITY ----------------//
 
