@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100;200;300;400;500;600;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/hompe_page_2.css" />
+    <link rel="stylesheet" href="css/style--pdp.css" />
+    <link rel="stylesheet" href="css/style--cart.css" />
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="./src/pdp.js" defer type="module"></script>
+    <script src="./src/main.js" type="module"></script>
+    <script src="./src/cart.js" type="module"></script>
+  </head>
+  <body class="cart-container">
+    <div class="pop-up hidden">
+      <div class="close">&times;</div>
+      <ul class="nav-bar nav-bar--pop-up nav-bar-menu--pop-up hidden">
+        <li class="nav-bar__item">
+          <a href="" class="nav-bar__link">Shop</a>
+        </li>
+        <li class="nav-bar__item">
+          <a href="" class="nav-bar__link">About</a>
+        </li>
+        <li class="nav-bar__item">
+          <a href="" class="nav-bar__link">Suncare 101</a>
+        </li>
+      </ul>
+      <ul class="nav-bar nav-bar--pop-up nav-bar-cart--pop-up hidden">
+        <li class="nav-bar__item">
+          <a href="" class="nav-bar__link">Account</a>
+        </li>
+        <li class="nav-bar__item">
+          <a href="" class="nav-bar__link">Search</a>
+        </li>
+        <li class="nav-bar__item">
+          <a href="" class="nav-bar__link">Cart()</a>
+        </li>
+      </ul>
+    </div>
+    <img
+      src="./public/images/icons/icon.png"
+      alt="question icon"
+      class="img_question-icon"
+    />
+    <header class="header header--cart">
+      <nav class="navigation navigation--cart">
+        <span class="navigation__shipping-info"
+          >Free Shipping for all orders over $100</span
+        >
+        <div class="navigation__bar">
+          <div class="nav-bar nav-bar--mobile-menu">Menu</div>
+          <ul class="nav-bar nav-bar--menu">
+            <li class="nav-bar__item">
+              <a href="" class="nav-bar__link">Shop</a>
+            </li>
+            <li class="nav-bar__item">
+              <a href="" class="nav-bar__link">About</a>
+            </li>
+            <li class="nav-bar__item">
+              <a href="" class="nav-bar__link">Suncare 101</a>
+            </li>
+          </ul>
+          <div class="nav-bar--title">Cream Shop</div>
+          <ul class="nav-bar nav-bar--cart">
+            <li class="nav-bar__item">
+              <a href="" class="nav-bar__link">Account</a>
+            </li>
+            <li class="nav-bar__item">
+              <a href="" class="nav-bar__link">Search</a>
+            </li>
+            <li class="nav-bar__item">
+              <a href="" class="nav-bar__link">Cart (0)</a>
+            </li>
+          </ul>
+          <div class="nav-bar nav-bar--mobile-cart">cart(0)</div>
+        </div>
+        <ul class="navigation__page">
+          <li class="page"><a href="index.html" class="page__link">Home</a></li>
+          /
+          <li class="page">
+            <a href="collection(plp).html" class="page__link">Best Seller</a>
+          </li>
+          /
+          <li class="page">
+            <a href="#" class="page__link page__link--current">Cart</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="my_cart-box">
+        <h1 class="title title--cart">My Cart</h1>
+        <div class="shipping-indicator">$12.00 away from free shipping</div>
+      </div>
+    </header>
+    <main class="cart--products">
+      <div class="cart">
+        <div class="product__info-box">
+          <div class="product__img-box">
+            <img
+              src="./public/images/icons/image 8.png"
+              alt="product"
+              class="product__img"
+            />
+          </div>
+          <div class="product__name product__name--cart">
+            Universal mineral face lotion SPF55
+          </div>
+          <div class="product__size">Size:1.7 fl.oz</div>
+          <div class="product__varient">One Time Purchase</div>
+          <button class="btn btn--remove">Remove</button>
+        </div>
+        <div class="product__price-box">
+          <div class="product__price product__price--1">$28</div>
+          <div class="cart-menu__qty cart-menu__qty--cart">
+            <button class="btn btn--qty">-</button>
+            <span class="qty-number">1</span>
+            <button class="btn btn--qty">+</button>
+          </div>
+          <div class="product__price product__price--2">$28</div>
+        </div>
+      </div>
+      <div class="cart">
+        <div class="product__info-box">
+          <div class="product__img-box">
+            <img
+              src="./public/images/icons/image 8.png"
+              alt="product"
+              class="product__img"
+            />
+          </div>
+          <div class="product__name product__name--cart">
+            Universal mineral face lotion SPF55
+          </div>
+          <div class="product__size">Size:1.7 fl.oz</div>
+          <div class="product__varient">One Time Purchase</div>
+          <button class="btn btn--remove">Remove</button>
+        </div>
+        <div class="product__price-box">
+          <div class="product__price product__price--1">$28</div>
+          <div class="cart-menu__qty cart-menu__qty--cart">
+            <button class="btn btn--qty">-</button>
+            <span class="qty-number">1</span>
+            <button class="btn btn--qty">+</button>
+          </div>
+          <div class="product__price product__price--2">$28</div>
+        </div>
+      </div>
+      <form class="order-container">
+        <div class="order__text-box">
+          <label class="order__label" for="order" class="notes-label"
+            >Order Notes</label
+          >
+          <textarea
+            class="order__textarea"
+            placeholder="Type Message..."
+            name="order"
+            id="order"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <div class="order__check-out">
+          <div class="subtotal">Subtotal</div>
+          <div class="subtotal-amount">$112.00</div>
+          <div class="notice">Shipping and tax calculated at checkout.</div>
+          <div class="discount">Auto</div>
+          <div class="discount-amount">$10.00</div>
+          <div class="total">Total</div>
+          <div class="total-amount">$102.00</div>
+          <button class="btn btn-checkout">SECURE CHECKOUT</button>
+        </div>
+      </form>
+    </main>
+    <footer class="footer">
+      <div class="footer__form-container">
+        <form class="footer__form" action="#">
+          <div class="footer__title">Join the club</div>
+          <p class="footer__paragraph">
+            Keep up with our new releases,beauty tips and what Winnie's been up
+            to
+          </p>
+          <input
+            type="text"
+            class="footer__input"
+            required
+            placeholder="Email Address"
+          />
+          <div class="socials-box">
+            <img
+              src="./public/images/icons/socials.png"
+              alt="socials"
+              class="socials"
+            />
+          </div>
+          <!-- <button class="submit-btn">
+              <img src="./public/images/icons/arrow.png" alt="arrow" />
+            </button> -->
+        </form>
+        <ul class="rules">
+          <li class="rules__items">&copy; Cream Shop</li>
+          <li class="rules__items">Terms and conditions</li>
+          <li class="rules__items">Privacy Policy</li>
+        </ul>
+      </div>
+      <div class="footer__menu">
+        <ul class="category category--shop">
+          <span class="category__name">Shop</span>
+          <li class="category__items">Shop All</li>
+          <li class="category__items">Best Sellers</li>
+          <li class="category__items">Universal Material</li>
+          <li class="category__items">Isie Glow Isle</li>
+          <li class="category__items">Deepwater</li>
+          <li class="category__items">Winne Selects</li>
+        </ul>
+        <ul class="category category--learn">
+          <span class="category__name">Learn</span>
+          <li class="category__items">About Us</li>
+          <li class="category__items">Ingredient Glossary</li>
+          <li class="category__items">Sun cate 101</li>
+          <li class="category__items">Our Journay</li>
+        </ul>
+        <ul class="category category--customer">
+          <span class="category__name">Custormer</span>
+          <li class="category__items">Contact Us</li>
+          <li class="category__items">Help/FAQ</li>
+          <li class="category__items">My Account</li>
+          <li class="category__items">Shipping and Return</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

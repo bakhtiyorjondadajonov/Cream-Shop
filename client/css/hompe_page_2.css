@@ -159,7 +159,7 @@ text-transform: uppercase;
 display: flex;
 color:var(--main-txt-color);
 padding: 8rem;
-background-color: rgba(73, 71, 71, 0.434);
+background-color: rgba(17, 16, 16, 0.84);
 /* justify-content: space-around; */
 }
 .footer__form,.footer__form-container{
