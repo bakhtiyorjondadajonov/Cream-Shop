@@ -5,6 +5,9 @@ background-color: var(--main-txt-color);
 display: grid;
 grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
 }
+.maa{
+font-weight: 300;
+}
 .section__content{
 display: flex;
 flex-direction: column;
