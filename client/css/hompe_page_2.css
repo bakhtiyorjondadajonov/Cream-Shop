@@ -282,6 +282,10 @@ position: static;
         padding: 4rem 1rem;
         gap: 2rem;
     }
+    .footer__form-container{
+
+        border-right: none;
+    }
     .footer__form{
         border-right: none;
         border-bottom: solid 1px white;
